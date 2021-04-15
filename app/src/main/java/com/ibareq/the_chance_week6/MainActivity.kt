@@ -11,6 +11,6 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun onClickLogin(v: View){
-        LoginUtil.login("test@mail.com", 1234)
+        LoginUtil.login("test@mail.com", 1234.toString())
     }
 }
